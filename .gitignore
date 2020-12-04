@@ -131,3 +131,4 @@ dmypy.json
 .idea/
 DiscordUserSecret.txt
 DatabasePath.txt
+data/

@@ -13,6 +13,7 @@ class Database:
             self.connection = sqlite3.connect(path)
             self.connected = True
             self.c = self.connection.cursor()
+            self.create_database()
         except Error as e:
             print(f"The error '{e}' occurred")
 
@@ -35,9 +36,8 @@ class Database:
              (usage_id INTEGER PRIMARY KEY, author_id int, channel int, time text, emoji text, server text)''')
         self.connection.commit()
 
-data = Database("C:\\Users\matth\PycharmProjects\DiscordBot\data\counterData.db")
 
-data.create_database()
+# data.create_database()
 #
 # data.add_data(19292,'general','13:10',':joe:','Spooky Show')
 
