@@ -1,1 +1,0 @@
-C:\\Users\matth\PycharmProjects\DiscordBot\data\counterdata.db
