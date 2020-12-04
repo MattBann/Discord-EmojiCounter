@@ -12,7 +12,7 @@ After creating and linking the bot, you must add it to a server with relevant pe
 * Mention everyone
 
 # Usage
-The default keyword is 'counter', though this can be changed by typing 'counter init {new keyword}'. Note that the keyword resets when the script stops.
+The default keyword is 'counter', though this can be changed by typing 'counter keyword {new keyword}'. Note that the keyword resets when the script stops.
 
 The program automically counts usage in the background. Statistics can be obtained using these commands:
 
